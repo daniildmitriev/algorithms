@@ -123,7 +123,7 @@ int main() {
     futexB fb;
     futexC fc;
     countTime<futexA>(fa, "Slow futex", 4);
-    countTime<futexB>(fb, "Good futex", 4);
-    countTime<futexC>(fc, "Bad futex", 4);
+    countTime<futexB>(fb, "Normal futex", 4);
+    countTime<futexC>(fc, "Volatile futex", 4);
     
 }
